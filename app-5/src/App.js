@@ -3,8 +3,12 @@ import Image from './components/Image'
 import './App.css'
 
 class App extends Component {
-  state = {
-    url: 'https://http.cat/599'
+  constructor(){
+    super()
+    
+    this.state = {
+      url: 'https://http.cat/599'
+    }
   }
   
   render() {
